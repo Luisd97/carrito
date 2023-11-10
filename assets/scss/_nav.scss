@@ -1,0 +1,30 @@
+
+/* inicia nav */
+.botonera{
+    background-color:$mainColor;
+    img{
+        width: 150px;
+    }
+    a{
+        color:$white;
+    }
+    svg{
+        width: 30px;
+        fill:$white;
+    }
+    .num-cart{
+        width: 15px;
+        height: 15px;
+        background-color: $white;
+        border-radius: 50%;
+        color: $mainColor;
+        display: black;
+        border: solid $black 1px;
+        transform: translateY(10px,-30px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5em;
+    }
+}
+
